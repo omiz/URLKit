@@ -11,6 +11,8 @@
 		E023F78821F9227200470529 /* URLKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E023F78721F9227200470529 /* URLKitTests.swift */; };
 		E023F78A21F9227200470529 /* URLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E023F77C21F9227200470529 /* URLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E023F79521F924D600470529 /* URL+UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E023F79421F924D600470529 /* URL+UTType.swift */; };
+		E04EAD5421FBA8450054D741 /* URL+FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04EAD5321FBA8450054D741 /* URL+FileManager.swift */; };
+		E0E7264521FEF350007C30FF /* URL+ Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7264421FEF350007C30FF /* URL+ Resource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		E023F78721F9227200470529 /* URLKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLKitTests.swift; sourceTree = "<group>"; };
 		E023F78921F9227200470529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E023F79421F924D600470529 /* URL+UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+UTType.swift"; sourceTree = "<group>"; };
+		E04EAD5321FBA8450054D741 /* URL+FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+FileManager.swift"; sourceTree = "<group>"; };
+		E0E7264421FEF350007C30FF /* URL+ Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+ Resource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				E023F79421F924D600470529 /* URL+UTType.swift */,
+				E04EAD5321FBA8450054D741 /* URL+FileManager.swift */,
+				E0E7264421FEF350007C30FF /* URL+ Resource.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -207,6 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E023F79521F924D600470529 /* URL+UTType.swift in Sources */,
+				E0E7264521FEF350007C30FF /* URL+ Resource.swift in Sources */,
+				E04EAD5421FBA8450054D741 /* URL+FileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

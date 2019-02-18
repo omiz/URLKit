@@ -51,8 +51,23 @@ import MobileCoreServices
 
 extension URL {
     
-    public var typeDeclaration: [CFString: Any] {
+    public var uttypeIdentification: UTTypeIdentification {
+        return UTTypeIdentification(pathExtension)
+    }
+}
+
+
+
+public struct UTTypeIdentification {
     
+    public let pathExtension: String
+    
+    init(_ pathExtension: String) {
+        self.pathExtension = pathExtension
+    }
+    
+    public var typeDeclaration: [CFString: Any] {
+        
         let pathExtension = self.pathExtension as CFString
         
         let identifier = UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension,
@@ -120,6 +135,3 @@ extension URL {
         return UTTypeEqual(identifier, UTType)
     }
 }
-
-
-
